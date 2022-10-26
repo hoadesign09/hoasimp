@@ -1,0 +1,82 @@
+/* home page css */
+.home {
+  &__logo {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 200px 200px;
+    text-indent: -9999px;
+    border-radius: 50%;
+  }
+
+  &__list-title {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+
+  &__tags {
+     display: flex;
+    flex-wrap: wrap;
+
+    span {
+      background-color: $tag-background-color;
+      border-radius: .3em;
+      padding: .1em .5em;
+      margin-right: 5px;
+      margin-bottom: .5em;
+      font-size: .8em;
+    }
+  }
+
+  &__title {
+    color: $secondary-text-color;
+  }
+
+  &__work {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @include tablet {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include desktop {
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    img {
+      position: relative;
+      transition: all 350ms ease;
+      top: 0;
+    }
+
+    span {
+      background: #6c757d;
+      position: absolute;
+      z-index: -1;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+      color: white;
+      line-height: 50px;
+      text-align: center;
+      font-weight: 400;
+      font-size: 18px;
+      display: block;
+    }
+
+    &__item {
+      overflow: hidden;
+      position: relative;
+      display: block;
+
+      &:hover img {
+        top: -50px;
+        transition: all 350ms ease;
+      }
+    }
+  }
+}
