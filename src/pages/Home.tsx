@@ -13,15 +13,12 @@ function Home() {
                         </h1>
                     </div>
                     <div className="col-12 col-md-8 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.3s">
-                        <p>Merhaba,</p>
+                        <p>Hello everyone,</p>
 
-                        <p>Ben Bilal Uçar. GittiGidiyor 'da Front-end Engineer olarak çalışıyorum. Yaptığım projenin
-                            insanlar
-                            tarafından sevilip kullanıldığını görmek, "Abi adamlar yapmış!" gibi cümleler duymak en
-                            büyük
-                            motivasyon kaynağım.</p>
+                        <p>Hi,
+I'm Nguyen Quoc Hoa (hoasimp), I'm working as a freelance front-end developer. I am currently a student at a university in Ho Chi Minh City. Hopefully with my projects will bring value to you.</p>
 
-                        <p>Çalıştığım bazı firma ve projeler:</p>
+                        <p>Some of my certifications:</p>
                     </div>
                 </div>
             </section>
@@ -29,23 +26,23 @@ function Home() {
                 <div className="row home__work py-5">
                     <a href="/portfolyo/" className="home__work__item">
                         <img className="img-fluid" src="/images/gittigidiyor.png" alt="GittiGidiyor"/>
-                        <span>Detaylar</span>
+                        <span>See more</span>
                     </a>
                     <a href="/portfolyo/testinium#loadium" className="home__work__item">
                         <img className="img-fluid" src="/images/loadium.png" alt="Loadium"/>
-                        <span>Detaylar</span>
+                        <span>See more</span>
                     </a>
                     <a href="/portfolyo/testinium#testinium" className="home__work__item">
                         <img className="img-fluid" src="/images/testinium.png" alt="Testinium"/>
-                        <span>Detaylar</span>
+                        <span>See more</span>
                     </a>
                     <a href="/portfolyo/testinium#dashboard" className="home__work__item">
                         <img className="img-fluid" src="/images/dashboard.png" alt="Qa-Dashboard"/>
-                        <span>Detaylar</span>
+                        <span>See more</span>
                     </a>
                     <a href="/portfolyo/teknovol" className="home__work__item">
                         <img className="img-fluid" src="/images/teknovol.png" alt="Teknovol"/>
-                        <span>Detaylar</span>
+                        <span>See more</span>
                     </a>
                 </div>
             </section>
@@ -53,7 +50,7 @@ function Home() {
                 <div className="row">
                     <div className="col-12 col-md-4">
                         <h3 className="home__title wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0s">
-                            Yeteneklerim</h3>
+                            My Skills</h3>
                     </div>
                     <div className="col-12 col-md-8 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.3s">
                         <h4>Front-end Development</h4>
@@ -115,7 +112,7 @@ function Home() {
                 <div className="row">
                     <div className="col-12 col-md-4">
                         <h3 className="home__title wow fadeInUp animated" data-wow-duration="1s"
-                            data-wow-delay="0s">Hakkımda</h3>
+                            data-wow-delay="0s">About me</h3>
                     </div>
                     <div className="col-12 col-md-8 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.3s">
                         <p>İlkokul 'da babamın eve bilgisayar almasıyla birlikte büyüklerin her bayram sorduğu o
@@ -155,15 +152,14 @@ function Home() {
                 <div className="row">
                     <div className="col-12 col-md-4">
                         <h3 className="home__title wow fadeInUp animated" data-wow-duration="1s"
-                            data-wow-delay="0s">İletişim</h3>
+                            data-wow-delay="0s">Contact me</h3>
                     </div>
                     <div className="col-12 col-md-8 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.3s">
-                        <p>Benimle iletişime geçmek istiyorsanız, aşağıdaki iletişim seçeneklerinden birini
-                            kullanabilirsiniz.
-                            Size en kısa zamanda yanıt vermeye çalışacağım.</p>
-                        <p><a href="mailto:ucarbilal@outlook.com">ucarbilal@outlook.com</a></p>
-                        <p><a href="tel:+905398651530" className="bold">+90 539 865 1530</a></p>
-                        <p>Ataşehir/İstanbul</p>
+                        <p>If you have any problems, please contact me using the information below.</p>
+                        <p>I will assist you as soon as possible.</p>
+                        <p><a href="mailto:hoadesign.09@gmail.com">hoadesign.09@gmail.com</a></p>
+                        <p><a href="tel:+84357790324" className="bold">+84 357 790 324</a></p>
+                        <p>HCMC, VietNam</p>
                     </div>
                 </div>
             </section>

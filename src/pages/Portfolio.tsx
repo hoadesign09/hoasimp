@@ -8,7 +8,7 @@ function Portfolio() {
                 <div className="row pt-5">
                     <div className="col-12">
                         <h3 className="home__title wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0s">
-                            Deneyim</h3>
+                            Awards</h3>
                     </div>
                 </div>
                 <div className="row py-4">
@@ -76,7 +76,7 @@ function Portfolio() {
                 <div className="row pt-5">
                     <div className="col-12">
                         <h3 className="home__title wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0s">
-                            Eğitim</h3>
+                            Exps</h3>
                     </div>
                 </div>
                 <div className="row py-4">

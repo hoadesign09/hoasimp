@@ -2,12 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
 
 import classNames from 'classnames';
-
 import Home from './Home';
 import Blog from './Blog';
 import Portfolio from './Portfolio';
 import BlogDetail from './Blog-Detail';
 import PortfolioItem from '../components/Portfolio-Item';
+import Contact from './Contact';
 import Footer from '../components/Footer';
 import SvgHome from "../components/icons/Home";
 import SvgSuitcaseFilled from "../components/icons/SuitcaseFilled";
@@ -29,13 +29,13 @@ interface MenuItem {
 
 const menuItems = [
     {
-        text: 'Anasayfa',
+        text: 'Home',
         path: '/',
         icon: <SvgHome/>,
         iconHover: <SvgHomeFilled/>
     },
     {
-        text: 'Portfolyo',
+        text: 'Portfolio',
         path: '/portfolyo',
         icon: <SvgSuitcase/>,
         iconHover: <SvgSuitcaseFilled/>
@@ -53,8 +53,8 @@ const menuItems = [
         iconHover: <SvgCvFilled/>
     },
     {
-        text: 'İletişim',
-        path: '/#contact',
+        text: 'Contact',
+        path: '/contact',
         icon: <SvgContact/>,
         iconHover: <SvgContactFilled/>
     }
@@ -103,6 +103,7 @@ class App extends React.Component<any, any> {
                         <Route  path="/blog" element={<Blog/>}/>
                         <Route  path="/blog/:postId" element={<BlogDetail/>}/>
                         <Route  path="/portfolyo/:portfolioId" element={<PortfolioItem/>}/>
+                        <Route  path="/contact" element={<Contact/>}/>
                     </Routes>
                 </Router>
                 <Footer/>
